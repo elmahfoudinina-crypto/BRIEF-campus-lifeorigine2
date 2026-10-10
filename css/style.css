@@ -1,0 +1,252 @@
+.HEADER {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 12px 24px;
+  background: #ffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.HEADER h1 {
+  color: #111;
+  font-weight: 800;
+  font-size: 22px;
+  text-decoration: none;
+  padding: 4px 8px;
+  white-space: nowrap;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+
+}
+
+.HEADER img {
+  width: 42px;
+  height: 36px;
+  opacity: 1px;
+  top: 12px;
+  left: 810px;
+}
+
+.RJbox {
+  width: 150px;
+  height: 35px;
+  opacity: 1px;
+  top: 12px;
+  left: 858px;
+  border-radius: 5px;
+  background-color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ul a {
+  color: black;
+}
+
+.rjcontent {
+  color: white
+}
+
+.nav {
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+  flex: 1;
+
+}
+
+.modif {
+  display: flex;
+}
+
+.image2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: 22px width: 57%;
+  height: 577px;
+  margin-left: auto;
+  overflow: hidden;
+  width: 90%;
+}
+
+.hero {
+  background-image: url("hero.png");
+  background-size: contain;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-color: #0b1120;
+  align-items: center;
+  padding: -1 64px;
+  color: #fff;
+  background-color: rgb(1, 4, 16);
+  display: flex;
+  align-items: flex-start;
+  padding-top: 8p;
+}
+
+.moi {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 0.9;
+  letter-spacing: -3px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 40px;
+}
+
+
+.toi {
+  color: #1557ff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 0.9;
+  margin: 8px 0 0 0;
+  padding: 0;
+  width: auto;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  padding-left: 45px;
+}
+
+.toi h2 {
+  margin-top: -80px;
+}
+
+.jassem {
+  color: #c7f64a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  margin-top: -170px;
+  margin-bottom: 15px;
+  margin-left: 350px;
+}
+
+.jassem p {
+  margin: 0;
+}
+
+.description {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: bold;
+  margin: 15px 0 0 0;
+  padding: 0;
+  margin-left: 60px;
+  width: 480px;
+  margin-top: -35px;
+
+}
+
+.description2 {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  line-height: 1.1;
+  margin-top: -15px;
+  width: 350px;
+  margin-left: 60px;
+}
+
+.bottoms {
+  margin-left: 40px;
+  padding: 20px;
+}
+
+.bottom1 {
+  size:3px;
+  opacity: 1px;
+  top: 12px;
+  left: 858px;
+  border-radius: 5px;
+  background-color: rgb(31, 31, 248);
+  text-decoration:;
+  height: 40px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border:rgb(31, 31, 248);
+}
+ .modif2{
+  color:white;
+   text-decoration: none;
+ }
+  
+ .modif3{
+  color:white;
+  text-decoration: none;
+ }
+
+ .bottom2{
+  size:3px;
+  opacity: 1px;
+  top: 12px;
+  left: 858px;
+  border-radius: 5px;
+  background-color:transparent;
+  height: 40px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ .cercles{
+   display: flex;
+    gap: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.dot_A {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #B8C9CF;
+    text-align: center;
+}
+
+.dot_S {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #D7C3B6;
+    text-align: center;
+}
+
+.dot_Y {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #B8C9CF;
+    text-align: center;
+}
+
+.dot_M {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #D7C3B6;
+    text-align: center;
+}
+
+
+.parent_dots>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ 
